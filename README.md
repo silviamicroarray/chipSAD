@@ -21,6 +21,8 @@ You will find two folders:
 ./example_data  containing a simple input dataset
 
 
+
+
 3.	Using the PIPE-chipSAD pipeline
 
 3.1.	chipSAD provides the segmentation of the hybridization signal.
@@ -132,7 +134,10 @@ chipSAD_excel*.txt: the chipSAD results to be loaded on excel for easy screening
 
 
 
+
+
 3.2.	anno-chipSAD (annotation of signal areas), a method to map the detected transcripts onto the genome.
+
 
 
 Input files: 
@@ -184,7 +189,10 @@ tot_results*.txt: genomic location assigned to all chipSAD SAS for both strands
 
 
 
+
+
 3.3.	align-chipSAD analyses multiple experiments from different chip layouts at the same.
+
 
 
 Input files: 
