@@ -8,7 +8,7 @@ The PIPE-chipSAD pipeline is composed by tree Python scripts: chipSAD.py, anno-c
 Just simply untar the package in any destination folder:
 
 
-tar zxvf PIPE-chipSAD_v1.0.tgz ./
+         tar zxvf PIPE-chipSAD_v1.0.tgz ./
 
 
 You will find two folders:
@@ -28,7 +28,7 @@ You will find two folders:
 chipSAD could be run either via command line (shell) or using the user-friendly GUI. To run the GUI easily type:
 
 
-python ChipSAD_GUI.py
+         python ChipSAD_GUI.py
 
 
 Before running the GUI, the users may want to check if the library wx is already installed.
@@ -56,31 +56,31 @@ Usage: python chipSAD.py signal_file probes_file ttest_table [options]
 Options:
 
 
-   -h, --help            show this help message and exit
+      -h, --help            show this help message and exit
   
-    -o OUTDIR, --outdir=OUTDIR
+      -o OUTDIR, --outdir=OUTDIR
   
                         directory for output file. Default is current
                         
                         directory.
                         
-   -w WIDTH, --width=WIDTH
+      -w WIDTH, --width=WIDTH
   
                         sliding window width. Default 40.
                         
-   -s STEP, --step=STEP  step of computation. Default 10.
+      -s STEP, --step=STEP  step of computation. Default 10.
   
-   -t THRESHOLD, --threshold=THRESHOLD
+      -t THRESHOLD, --threshold=THRESHOLD
   
                         t-test threshold value. Default SAD compute it from
                         
                         ttest table.
                         
-   -p PERCENTILE, --percentile=PERCENTILE
+      -p PERCENTILE, --percentile=PERCENTILE
   
                         percentile threshold. Default 8.
                         
-    -v PVALUE, --pvalue=PVALUE
+      -v PVALUE, --pvalue=PVALUE
   
                         pvalue threshold. Default 0.05. If you set the t
                         
@@ -88,17 +88,17 @@ Options:
                         
                         will be considered.
                         
-   -g GAP, --gap=GAP     the gap widht. Default 240.
+      -g GAP, --gap=GAP     the gap widht. Default 240.
   
-   -b PSEUDOMEDIAN, --pseudomedian=PSEUDOMEDIAN
+      -b PSEUDOMEDIAN, --pseudomedian=PSEUDOMEDIAN
   
                         boolean var: 0 for no presmoothing. Default 1.
                         
-    -m MINIMUM, --minimum=MINIMUM
+      -m MINIMUM, --minimum=MINIMUM
   
                         minimun probe number for CPRs. Default 3.
                         
-    -j STRAND, --strand=STRAND
+      -j STRAND, --strand=STRAND
   
                         strand. Default F.
                         
@@ -108,7 +108,7 @@ Options:
 Example procedure:
 
 
-  python chipSAD.py ./example_data/signal_example.txt ./example_data/probes_example.txt ./script/ttest_table.txt –w 10 –s 1 –o ./output
+      python chipSAD.py ./example_data/signal_example.txt ./example_data/probes_example.txt ./script/ttest_table.txt –w 10 –s 1 –o ./output
 
 
 For the example dataset we suggest to use a smaller window size (w) and computational step (s) than the default parameters. Anyway we suggest to try different sizes to find the most suitable one.
