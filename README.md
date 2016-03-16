@@ -56,31 +56,31 @@ Usage: python chipSAD.py signal_file probes_file ttest_table [options]
 Options:
 
 
-  -h, --help            show this help message and exit
+   -h, --help            show this help message and exit
   
-  -o OUTDIR, --outdir=OUTDIR
+    -o OUTDIR, --outdir=OUTDIR
   
                         directory for output file. Default is current
                         
                         directory.
                         
-  -w WIDTH, --width=WIDTH
+   -w WIDTH, --width=WIDTH
   
                         sliding window width. Default 40.
                         
-  -s STEP, --step=STEP  step of computation. Default 10.
+   -s STEP, --step=STEP  step of computation. Default 10.
   
-  -t THRESHOLD, --threshold=THRESHOLD
+   -t THRESHOLD, --threshold=THRESHOLD
   
                         t-test threshold value. Default SAD compute it from
                         
                         ttest table.
                         
-  -p PERCENTILE, --percentile=PERCENTILE
+   -p PERCENTILE, --percentile=PERCENTILE
   
                         percentile threshold. Default 8.
                         
-  -v PVALUE, --pvalue=PVALUE
+    -v PVALUE, --pvalue=PVALUE
   
                         pvalue threshold. Default 0.05. If you set the t
                         
@@ -88,17 +88,17 @@ Options:
                         
                         will be considered.
                         
-  -g GAP, --gap=GAP     the gap widht. Default 240.
+   -g GAP, --gap=GAP     the gap widht. Default 240.
   
-  -b PSEUDOMEDIAN, --pseudomedian=PSEUDOMEDIAN
+   -b PSEUDOMEDIAN, --pseudomedian=PSEUDOMEDIAN
   
                         boolean var: 0 for no presmoothing. Default 1.
                         
-  -m MINIMUM, --minimum=MINIMUM
+    -m MINIMUM, --minimum=MINIMUM
   
                         minimun probe number for CPRs. Default 3.
                         
-  -j STRAND, --strand=STRAND
+    -j STRAND, --strand=STRAND
   
                         strand. Default F.
                         
@@ -108,7 +108,7 @@ Options:
 Example procedure:
 
 
-python chipSAD.py ./example_data/signal_example.txt ./example_data/probes_example.txt ./script/ttest_table.txt –w 10 –s 1 –o ./output
+  python chipSAD.py ./example_data/signal_example.txt ./example_data/probes_example.txt ./script/ttest_table.txt –w 10 –s 1 –o ./output
 
 
 For the example dataset we suggest to use a smaller window size (w) and computational step (s) than the default parameters. Anyway we suggest to try different sizes to find the most suitable one.
@@ -150,24 +150,24 @@ probes_file - microarrays probes used to perform the experiment (provided in exa
 To access the program without running chipSAD before, the user must format the input files as required by the program. Example files are provided in the folder “example_data”. 
 
 
-Usage: python anno-chipSAD.py chipsad_results_file probes_file genome.gbk [options]
+  Usage: python anno-chipSAD.py chipsad_results_file probes_file genome.gbk [options]
 
 
 
 Options:
 
 
-  -h, --help            show this help message and exit
-  
-  -o OUTDIR, --outdir=OUTDIR
+    -h, --help            show this help message and exit
+    
+    -o OUTDIR, --outdir=OUTDIR
   
                         directory for output file. Default is current
                         
                         directory.
                         
-  -u THUP, --thup=THUP  up threshold for DE transcripts. Default is 1.00.
+   -u THUP, --thup=THUP  up threshold for DE transcripts. Default is 1.00.
   
-  -d THDOWN, --thdown=THDOWN
+   -d THDOWN, --thdown=THDOWN
   
                         down threshold for DE tramscripts. Default is -1.00.
                         
@@ -208,30 +208,30 @@ To run align-chipSAD the library igraph must be installed.
 Command: 
 
 
-cd folder_input_files
+  cd folder_input_files
 
-python align-chipSAD.py [options]
+  python align-chipSAD.py [options]
 
 
 
 Options:
 
 
-  -h, --help            show this help message and exit
+    -h, --help            show this help message and exit
   
-  -o OUTDIR, --outdir=OUTDIR
+   -o OUTDIR, --outdir=OUTDIR
   
                         directory for output file. Default is current
                         
                         directory.
                         
-  -u THUP, --thup=THUP  up threshold for DE tramscripts. Default is 0.00.
+   -u THUP, --thup=THUP  up threshold for DE tramscripts. Default is 0.00.
   
-  -d THDOWN, --thdown=THDOWN
+    -d THDOWN, --thdown=THDOWN
   
                         down threshold for DE tramscripts. Default is 0.00.
                         
-  -s STRAND, --strand=STRAND
+   -s STRAND, --strand=STRAND
   
                         set the strand. default F.
                         
@@ -241,9 +241,9 @@ Options:
 Example procedure:
 
 
-cd example_data/data_for_align-chipSAD
+  cd example_data/data_for_align-chipSAD
 
-python ../../scripts/align-chpSAD.py –o ../
+  python ../../scripts/align-chpSAD.py –o ../
 
 
 
