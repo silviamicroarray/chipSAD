@@ -184,9 +184,9 @@ Output, anno-chipSAD provides 21 outputs files:
 
 tot_results*.txt: genomic location assigned to all chipSAD SAS for both strands
 
-*_results_*.txt: for each category and for each strand a file with all the belonging SAS is created.
+* _results_ *.txt: for each category and for each strand a file with all the belonging SAS is created.
 
-*_artemis_*.txt: same as results but in a special format to be loaded on Artemis genome browser.
+* _artemis_ *.txt: same as results but in a special format to be loaded on Artemis genome browser.
 
 
 
