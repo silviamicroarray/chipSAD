@@ -150,24 +150,24 @@ probes_file - microarrays probes used to perform the experiment (provided in exa
 To access the program without running chipSAD before, the user must format the input files as required by the program. Example files are provided in the folder “example_data”. 
 
 
-  Usage: python anno-chipSAD.py chipsad_results_file probes_file genome.gbk [options]
+         Usage: python anno-chipSAD.py chipsad_results_file probes_file genome.gbk [options]
 
 
 
 Options:
 
 
-    -h, --help            show this help message and exit
+          -h, --help            show this help message and exit
     
-    -o OUTDIR, --outdir=OUTDIR
+          -o OUTDIR, --outdir=OUTDIR
   
                         directory for output file. Default is current
                         
                         directory.
                         
-   -u THUP, --thup=THUP  up threshold for DE transcripts. Default is 1.00.
+          -u THUP, --thup=THUP  up threshold for DE transcripts. Default is 1.00.
   
-   -d THDOWN, --thdown=THDOWN
+          -d THDOWN, --thdown=THDOWN
   
                         down threshold for DE tramscripts. Default is -1.00.
                         
@@ -208,30 +208,30 @@ To run align-chipSAD the library igraph must be installed.
 Command: 
 
 
-  cd folder_input_files
+         cd folder_input_files
 
-  python align-chipSAD.py [options]
+         python align-chipSAD.py [options]
 
 
 
 Options:
 
 
-    -h, --help            show this help message and exit
+         -h, --help            show this help message and exit
   
-   -o OUTDIR, --outdir=OUTDIR
+         -o OUTDIR, --outdir=OUTDIR
   
                         directory for output file. Default is current
                         
                         directory.
                         
-   -u THUP, --thup=THUP  up threshold for DE tramscripts. Default is 0.00.
+         -u THUP, --thup=THUP  up threshold for DE tramscripts. Default is 0.00.
   
-    -d THDOWN, --thdown=THDOWN
+         -d THDOWN, --thdown=THDOWN
   
                         down threshold for DE tramscripts. Default is 0.00.
                         
-   -s STRAND, --strand=STRAND
+         -s STRAND, --strand=STRAND
   
                         set the strand. default F.
                         
@@ -241,9 +241,9 @@ Options:
 Example procedure:
 
 
-  cd example_data/data_for_align-chipSAD
+         cd example_data/data_for_align-chipSAD
 
-  python ../../scripts/align-chpSAD.py –o ../
+         python ../../scripts/align-chpSAD.py –o ../
 
 
 
