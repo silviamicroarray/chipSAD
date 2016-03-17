@@ -194,7 +194,7 @@ tot_results*.txt: genomic location assigned to all chipSAD SAS for both strands
 
 
 
-*	align-chipSAD analyses multiple experiments from different chip layouts at the same. ***
+*	align-chipSAD analyses multiple experiments from different chip layouts at the same. 
 
 
 
