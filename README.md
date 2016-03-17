@@ -26,7 +26,7 @@ You will find two folders:
 
 *** Using the PIPE-chipSAD pipeline. ***
 
-1.	chipSAD provides the segmentation of the hybridization signal.
+*)	chipSAD provides the segmentation of the hybridization signal.
 
 
 chipSAD could be run either via command line (shell) or using the user-friendly GUI. To run the GUI easily type:
@@ -115,7 +115,7 @@ Example procedure:
       python chipSAD.py ./example_data/signal_example.txt ./example_data/probes_example.txt ./script/ttest_table.txt –w 4 –s 1 –o ./output
 
 
-For the example dataset we suggest to use a smaller window size (w) and computational step (s) than the default parameters. Anyway we suggest to try different sizes to find the most suitable one.
+For the example dataset we suggest to use a smaller window size (w) and computational step (s) than the default parameters. Anyway we suggest to try different sizes to find the most suitable ones.
 
 
 Output, chipSAD provides 6 outputs files:
@@ -138,7 +138,7 @@ chipSAD_excel*.txt: the chipSAD results to be loaded on excel for easy screening
 
 
 
-2.	anno-chipSAD (annotation of signal areas), a method to map the detected transcripts onto the genome.
+*)	anno-chipSAD (annotation of signal areas), a method to map the detected transcripts onto the genome.
 
 
 
@@ -194,7 +194,7 @@ tot_results*.txt: genomic location assigned to all chipSAD SAS for both strands
 
 
 
-3.	align-chipSAD analyses multiple experiments from different chip layouts at the same.
+*)	align-chipSAD analyses multiple experiments from different chip layouts at the same.
 
 
 
