@@ -1,4 +1,4 @@
-# chipSAD
+# PIPE-chipSAD
 
 
 ***	Requirements. ***
@@ -18,9 +18,9 @@ Just simply untar the package in any destination folder:
 You will find two folders:
 
 
-./scripts	containing the PIPE-chipSAD scripts
+./scripts:	containing the PIPE-chipSAD scripts
 
-./example_data  containing a simple input dataset
+./example_data:    containing a simple input dataset
 
 
 
@@ -112,7 +112,7 @@ Options:
 Example procedure:
 
 
-      python chipSAD.py ./example_data/signal_example.txt ./example_data/probes_example.txt ./script/ttest_table.txt –w 10 –s 1 –o ./output
+      python chipSAD.py ./example_data/signal_example.txt ./example_data/probes_example.txt ./script/ttest_table.txt –w 4 –s 1 –o ./output
 
 
 For the example dataset we suggest to use a smaller window size (w) and computational step (s) than the default parameters. Anyway we suggest to try different sizes to find the most suitable one.
