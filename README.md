@@ -1,12 +1,14 @@
 # chipSAD
 
 
-***	Requirements
+***	Requirements.
+
 The PIPE-chipSAD pipeline is composed by tree Python scripts: chipSAD.py, anno-chipSAD.py and align-chipSAD.py.  Required Python libraries are: wx and igraph.
 
 
 
-***  Installation
+***  Installation.
+
 Just simply untar the package in any destination folder:
 
 
