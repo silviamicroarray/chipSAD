@@ -1,10 +1,12 @@
 # chipSAD
 
 
-1.	Requirements
+***	Requirements
 The PIPE-chipSAD pipeline is composed by tree Python scripts: chipSAD.py, anno-chipSAD.py and align-chipSAD.py.  Required Python libraries are: wx and igraph.
 
-2.  Installation
+
+
+***  Installation
 Just simply untar the package in any destination folder:
 
 
@@ -20,9 +22,9 @@ You will find two folders:
 
 
 
-3. Using the PIPE-chipSAD pipeline
+*** Using the PIPE-chipSAD pipeline
 
-3.1.	chipSAD provides the segmentation of the hybridization signal.
+1.	chipSAD provides the segmentation of the hybridization signal.
 
 
 chipSAD could be run either via command line (shell) or using the user-friendly GUI. To run the GUI easily type:
@@ -50,7 +52,7 @@ ttest_table - is included in the “scripts” folder
 Examples of “signal” and “probe” files are provided in the example_data folder. 
 
 
-Usage: python chipSAD.py signal_file probes_file ttest_table [options]
+         Usage: python chipSAD.py signal_file probes_file ttest_table [options]
 
 
 Options:
@@ -133,7 +135,8 @@ chipSAD_excel*.txt: the chipSAD results to be loaded on excel for easy screening
 
 
 
-3.2.	anno-chipSAD (annotation of signal areas), a method to map the detected transcripts onto the genome.
+
+2.	anno-chipSAD (annotation of signal areas), a method to map the detected transcripts onto the genome.
 
 
 
@@ -188,7 +191,8 @@ tot_results*.txt: genomic location assigned to all chipSAD SAS for both strands
 
 
 
-3.3.	align-chipSAD analyses multiple experiments from different chip layouts at the same.
+
+3.	align-chipSAD analyses multiple experiments from different chip layouts at the same.
 
 
 
