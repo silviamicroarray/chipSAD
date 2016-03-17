@@ -26,7 +26,7 @@ You will find two folders:
 
 *** Using the PIPE-chipSAD pipeline. ***
 
-***	chipSAD provides the segmentation of the hybridization signal.
+***	chipSAD provides the segmentation of the hybridization signal. ***
 
 
 chipSAD could be run either via command line (shell) or using the user-friendly GUI. To run the GUI easily type:
@@ -138,7 +138,7 @@ chipSAD_excel*.txt: the chipSAD results to be loaded on excel for easy screening
 
 
 
-***	anno-chipSAD (annotation of signal areas), a method to map the detected transcripts onto the genome.
+***	anno-chipSAD (annotation of signal areas), a method to map the detected transcripts onto the genome. ***
 
 
 
@@ -194,7 +194,7 @@ tot_results*.txt: genomic location assigned to all chipSAD SAS for both strands
 
 
 
-***	align-chipSAD analyses multiple experiments from different chip layouts at the same.
+***	align-chipSAD analyses multiple experiments from different chip layouts at the same. ***
 
 
 
