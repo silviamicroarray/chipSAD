@@ -26,7 +26,7 @@ You will find two folders:
 
 *** Using the PIPE-chipSAD pipeline. ***
 
-***	chipSAD provides the segmentation of the hybridization signal. ***
+* _chipSAD provides the segmentation of the hybridization signal. 
 
 
 chipSAD could be run either via command line (shell) or using the user-friendly GUI. To run the GUI easily type:
@@ -184,9 +184,9 @@ Output, anno-chipSAD provides 21 outputs files:
 
 tot_results*.txt: genomic location assigned to all chipSAD SAS for both strands
 
-* _results_ *.txt: for each category and for each strand a file with all the belonging SAS is created.
+* results *.txt: for each category and for each strand a file with all the belonging SAS is created.
 
-* _artemis_ *.txt: same as results but in a special format to be loaded on Artemis genome browser.
+* artemis *.txt: same as results but in a special format to be loaded on Artemis genome browser.
 
 
 
