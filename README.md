@@ -174,7 +174,7 @@ Options:
   
           -d THDOWN, --thdown=THDOWN
   
-                        down threshold for DE tramscripts. Default is -1.00.
+                        down threshold for DE transcripts. Default is -1.00.
                         
                         
 
@@ -231,11 +231,11 @@ Options:
                         
                         directory.
                         
-         -u THUP, --thup=THUP  up threshold for DE tramscripts. Default is 0.00.
+         -u THUP, --thup=THUP  up threshold for DE transcripts. Default is 0.00.
   
          -d THDOWN, --thdown=THDOWN
   
-                        down threshold for DE tramscripts. Default is 0.00.
+                        down threshold for DE transcripts. Default is 0.00.
                         
          -s STRAND, --strand=STRAND
   
